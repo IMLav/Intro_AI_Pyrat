@@ -15,7 +15,7 @@ This repository contains both the original game files as well as the resources I
 - deep_q_learning_main.py
 - rl_cnn.py
 
-I also included in this repository an implementation of a CNN, which can be found in CNN/, I developped the following files.
+I also included in this repository an implementation of a CNN, which can be found in CNN_trial_implementation/, I developped the following files.
 
 - cnn_model.py
 - data_to_array.py
