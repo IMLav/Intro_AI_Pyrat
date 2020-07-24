@@ -9,8 +9,7 @@ Hence, only the game described is relevent to this repository.
 
 # Relevent files 
 
-This repository contains both the game files as well as the ressources I developped for my AI. 
-While the authors of the code are stated at the head of each file, here is the list of the code I adapted and whish to put forward : 
+This repository contains both the original game files as well as the resources I personally developed for my AI. The authors of the code are stated at the head of each file, but just for clarification, here is the list of files I have written and/or modified, and therefore wish to put forward:
 
 - AIs/deep_q_learning_AI.py
 - deep_q_learning_main.py
