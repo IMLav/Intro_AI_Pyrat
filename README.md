@@ -30,6 +30,9 @@ https://formations.imt-atlantique.fr/pyrat/install/
 You shouldn't need to download the game from the repository provided in the tutorial : it is already included in the present repository.
 
 ## Lauching the pyrat Game using deep_q_learning_AI.py using the correct game parameters
+
+Please make sure you are using Python 3.
+
 MacOS : 
 python pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_AI.py --python AIs/manh.py
 
