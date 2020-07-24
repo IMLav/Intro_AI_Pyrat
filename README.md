@@ -34,10 +34,10 @@ You shouldn't need to download the game from the repository provided in the tuto
 Please make sure you are using Python 3.
 
 MacOS : 
-python pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_AI.py --python AIs/manh.py
+\python pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_AI.py --python AIs/manh.py\
 
 Linux :
-python3 pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_AI.py --python AIs/manh.py
+\python3 pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_AI.py --python AIs/manh.py\
 
 # License
 
