@@ -1,6 +1,6 @@
-# Intro_IA_Pyrat
+# Intro_AI_Pyrat
 
-This is my implementation of an IA designed to play the game Pyrat, a game developped by IMT Atlantique.
+This is my implementation of an AI designed to play the game Pyrat, a game developped by IMT Atlantique.
 
 To find out how this game works, please visit this page :https://formations.imt-atlantique.fr/pyrat/pyrat-doc/
 
@@ -9,10 +9,9 @@ Hence, only the game described is relevent to this repository.
 
 # Relevent files 
 
-This repository contains both the game files as well as the ressources I developped for my AI. 
-While the authors of the code are stated at the head of each file, here is the list of the code I adapted and whish to put forward : 
+This repository contains both the original game files as well as the resources I personally developed for my AI. The authors of the code are stated at the head of each file, but just for clarification, here is the list of files I have written and/or modified, and therefore wish to put forward:
 
-- AIs/deep_q_learning_IA.py
+- AIs/deep_q_learning_AI.py
 - deep_q_learning_main.py
 - rl_cnn.py
 
@@ -21,7 +20,7 @@ I also included in this repository an implementation of a CNN, which can be foun
 - cnn_model.py
 - data_to_array.py
 
-# How to launch the game using the IA I developped
+# How to launch the game using the AI I developped
 
 ## Installing the pyrat Game
 
@@ -30,12 +29,12 @@ https://formations.imt-atlantique.fr/pyrat/install/
 
 You shouldn't need to download the game from the repository provided in the tutorial : it is already included in the present repository.
 
-## Lauching the pyrat Game using deep_q_learning_IA.py using the correct game parameters
+## Lauching the pyrat Game using deep_q_learning_AI.py using the correct game parameters
 MacOS : 
-python pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_IA.py --python AIs/manh.py
+python pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_AI.py --python AIs/manh.py
 
 Linux :
-python3 pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_IA.py --python AIs/manh.py
+python3 pyrat.py -p 40 -md 0 -d 0 --nonsymmetric --rat AIs/deep_q_learning_AI.py --python AIs/manh.py
 
 # Licence
 
